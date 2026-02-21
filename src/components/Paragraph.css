@@ -1,0 +1,29 @@
+
+.paragraph {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  line-height: 1.85;
+}
+
+.paragraph--default {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+.paragraph--lead {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.paragraph--small {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.paragraph--hero {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}

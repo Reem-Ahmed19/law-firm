@@ -1,0 +1,68 @@
+
+.section-title {
+  margin-bottom: 56px;
+}
+
+.section-title--centered {
+  text-align: center;
+}
+
+.section-title__label {
+  display: inline-block;
+  font-family: 'Cinzel', 'Georgia', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.section-title__heading {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.section-title__subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 560px;
+  line-height: 1.8;
+}
+
+.section-title--centered .section-title__subtitle {
+  margin: 0 auto;
+}
+
+.section-title__ornament {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 22px;
+}
+
+.section-title--centered .section-title__ornament {
+  justify-content: center;
+}
+
+.section-title__ornament span:nth-child(1) {
+  width: 48px;
+  height: 1px;
+  background-color: var(--accent);
+}
+
+.section-title__ornament span:nth-child(2) {
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent);
+  transform: rotate(45deg);
+}
+
+.section-title__ornament span:nth-child(3) {
+  width: 24px;
+  height: 1px;
+  background-color: var(--accent);
+}

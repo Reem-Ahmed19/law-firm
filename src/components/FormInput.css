@@ -1,0 +1,44 @@
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-input__label {
+  font-family: 'Cinzel', 'Georgia', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.form-input__required {
+  color: var(--accent);
+}
+
+.form-input__field {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-size: 1rem;
+  padding: 14px 18px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  width: 100%;
+}
+
+.form-input__field:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.12);
+}
+
+.form-input__field::placeholder {
+  color: var(--text-muted);
+}
+
+.form-input__field--textarea {
+  resize: vertical;
+  min-height: 130px;
+}
