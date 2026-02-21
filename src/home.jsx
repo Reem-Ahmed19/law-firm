@@ -10,7 +10,6 @@ import ScrollToTop from './components/ScrollToTop';
 
 const Home = () => {
   const [theme, setTheme] = useState('light');
-
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
